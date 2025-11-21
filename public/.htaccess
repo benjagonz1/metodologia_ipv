@@ -1,0 +1,6 @@
+# .htaccess para redirigir todo a index.php (colocarlo dentro de la carpeta public)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]
+
