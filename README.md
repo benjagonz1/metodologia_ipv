@@ -1,8 +1,15 @@
 # Sistema de Gestión de Inspecciones del IPV
 
-Comisión: 2.1
-Integrantes: Aveiro Matías — González Benjamín — Romero Camila
-Docente: [Veron Facundo]
+#### Comisión: 2.1
+
+#### Integrantes: 
+- Aveiro Matías 
+- González Benjamín 
+- Romero Camila
+
+#### Docente: 
+- Veron Facundo
+
 Fecha: 24/11/2025
 
 ## Resumen ejecutivo
@@ -35,7 +42,8 @@ El sistema implementa operaciones CRUD sobre inspecciones, estados, tipos de viv
 - HTML + CSS personalizado
 - XAMPP
 - Jira (gestión ágil)
-- PowerBi (ánalisis de datos)
+- PowerBi (ánalisis de datos y metricas)
+- Figma (prototipado)
 
 ## Metodologías ágiles
 
@@ -125,7 +133,7 @@ Etapas:
 ### Archivo principal
 name: CI-TEST IPV
 
-on:
+    on:
   push:
     branches: ["main"]
   pull_request:
